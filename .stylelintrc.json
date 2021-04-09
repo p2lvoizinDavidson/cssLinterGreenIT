@@ -1,0 +1,12 @@
+{
+    "extends": "stylelint-config-standard",
+    "plugins": [
+        "./rules/no-color-blue.js",
+        "./rules/standard-policy.js"
+    ],
+    "rules": {
+        "testim-plugin/no-color-blue": true,
+        "testim-plugin/standard-policy": true
+
+    }
+}
